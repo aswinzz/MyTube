@@ -30,7 +30,7 @@ $(document).ready(function(){
            		console.log(item);
            		videTitle=item.snippet.title;
            		videoId=item.snippet.resourceId.vedioId;
-           		output='<li>'+videTitle+'<br><iframe src=\"//www.youtube.com/embed/'+videoId+'\"></iframe></li>'
+           		output='<li>'+videTitle+'<br><iframe src="http://www.youtube.com/embed/'+videoId+'"></iframe></li>'
            		//Append to Results
            		$('#results').append(output); 
            	})
