@@ -29,7 +29,7 @@ $(document).ready(function(){
            	$.each(data.items,function(i,item){
            		console.log(item);
            		videTitle=item.snippet.title;
-           		videoId=item.snippet.resourceId.vedioId;
+           		videoId=item.snippet.resourceId.videoId;
            		output='<li>'+videTitle+'<br><iframe src="http://www.youtube.com/embed/'+videoId+'"></iframe></li>'
            		//Append to Results
            		$('#results').append(output); 
