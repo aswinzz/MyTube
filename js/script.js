@@ -1,5 +1,5 @@
 
-var channelName='TechGuyWeb';
+var channelName='Vevo';
 $(document).ready(function(){
 	
 	 	$.get(
