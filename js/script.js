@@ -7,9 +7,7 @@ function myFunction() {
     var i=0;
     text += x.elements[i].value;	
     channelName=text;
-     $("button").click(function(){
-        $("div").empty();
-    });
+    $('#masterdiv div').empty();
 	
 	 	$.get(
            "https://www.googleapis.com/youtube/v3/channels",{
