@@ -7,8 +7,7 @@ function myFunction() {
     var i=0;
     text += x.elements[i].value;	
       document.getElementById("demo").innerHTML = text;	
-}
-channelName=text;
+    channelName=text;
 $(document).ready(function(){
 	
 	 	$.get(
@@ -47,3 +46,4 @@ $(document).ready(function(){
 		);
 		}
 });
+}
