@@ -1,15 +1,14 @@
 
 var channelName;
-var text = "";
+
 function myFunction() {
+	var text = "";
     var x = document.getElementById("searchch");
     
     var i=0;
     text += x.elements[i].value;	
       document.getElementById("demo").innerHTML = text;	
     channelName=text;
-$(document).ready(function(){
-	
 	 	$.get(
            "https://www.googleapis.com/youtube/v3/channels",{
            	part: 'contentDetails',
@@ -45,5 +44,5 @@ $(document).ready(function(){
            }
 		);
 		}
-});
+
 }
