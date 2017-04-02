@@ -35,9 +35,12 @@ function myFunction() {
            	$.each(data.items,function(i,item){
            		console.log(item);
            		videTitle=item.snippet.title;
+              var thumb = item.snippet.thumbnails.high.url;
+              var videoDate = item.snippet.publishedAt;
+              var channelTitle = item.snippet.channelTitle;
               videoDes=item.snippet.description;
            		videoId=item.snippet.resourceId.videoId;
-           		output='<li><h2>'+videTitle+'</h2><hr><br><iframe width="300" height="180" src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p><a href="https://www.ssyoutube.com/watch?v='+videoId+'">Download</a></li>'
+           		output='<li><h2>'+videTitle+'</h2><small>By <span class="cTitle">' + channelTitle + '</span> on ' + videoDate + '<hr><br><iframe width="300" height="180" src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p><a href="https://www.ssyoutube.com/watch?v='+videoId+'">Download</a></li>'
            		//Append to Results
            		$('#results').append(output); 
            	})
