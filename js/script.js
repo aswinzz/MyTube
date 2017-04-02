@@ -4,10 +4,8 @@ var channelName;
 function myFunction() {
 	var text = "";
     var x = document.getElementById("searchch");
-    
     var i=0;
     text += x.elements[i].value;	
-      document.getElementById("demo").innerHTML = text;	
     channelName=text;
 
 	
