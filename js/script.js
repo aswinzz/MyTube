@@ -9,6 +9,8 @@ function myFunction() {
     text += x.elements[i].value;	
       document.getElementById("demo").innerHTML = text;	
     channelName=text;
+
+	
 	 	$.get(
            "https://www.googleapis.com/youtube/v3/channels",{
            	part: 'contentDetails',
