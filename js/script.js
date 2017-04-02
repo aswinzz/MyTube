@@ -35,8 +35,9 @@ function myFunction() {
            	$.each(data.items,function(i,item){
            		console.log(item);
            		videTitle=item.snippet.title;
+              videoDes=item.snippet.description;
            		videoId=item.snippet.resourceId.videoId;
-           		output='<li>'+videTitle+'<br><iframe src="http://www.youtube.com/embed/'+videoId+'"></iframe></li>'
+           		output='<li>'+videTitle+'<br><iframe src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p></li>'
            		//Append to Results
            		$('#results').append(output); 
            	})
