@@ -100,12 +100,9 @@ footer {
     padding: 10px 0;
     border-bottom: 1px dotted #ccc;
     list-style: none;
-    display:inline-block;
-    width:600px;
-    white-space: nowrap;
-    overflow:hidden !important;
-    text-overflow: ellipsis;
+    overflow: auto;
 }
+
 .list-left {
     float: left;
     width: 20%;
