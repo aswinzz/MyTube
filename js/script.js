@@ -1,5 +1,9 @@
 
 var channelName;
+$(document).ready(function() {
+  $("#searchch").submit(function(e) {
+    e.preventDefault();
+  });
 
 function myFunction() {
 	var text = "";
