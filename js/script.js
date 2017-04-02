@@ -7,7 +7,6 @@ function myFunction() {
     
     var i=0;
     text += x.elements[i].value;	
-    $('#channel').append(text);
       document.getElementById("demo").innerHTML = text;	
     channelName=text;
 	 	$.get(
