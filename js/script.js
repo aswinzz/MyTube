@@ -1,5 +1,12 @@
 
 var channelName='Vevo';
+function myFunction() {
+    var x = document.getElementById("searchch");
+    var text = "";
+    var i=0;
+    text += x.elements[i].value;	
+      document.getElementById("demo").innerHTML = text;
+}
 $(document).ready(function(){
 	
 	 	$.get(
