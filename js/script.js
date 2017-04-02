@@ -37,7 +37,7 @@ function myFunction() {
            		videTitle=item.snippet.title;
               videoDes=item.snippet.description;
            		videoId=item.snippet.resourceId.videoId;
-           		output='<li><h2>'+videTitle+'</h2><hr><br><iframe src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p><a href="https://www.ssyoutube.com/watch?v='+videoId+'">Download</a></li>'
+           		output='<li><h2>'+videTitle+'</h2><hr><br><iframe width="300" height="180" src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p><a href="https://www.ssyoutube.com/watch?v='+videoId+'">Download</a></li>'
            		//Append to Results
            		$('#results').append(output); 
            	})
