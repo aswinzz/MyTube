@@ -5,7 +5,7 @@ function myFunction() {
     var text = "";
     var i=0;
     text += x.elements[i].value;	
-      document.getElementById("demo").innerHTML = text;
+      document.getElementById("demo").innerHTML = text;	
 }
 $(document).ready(function(){
 	
