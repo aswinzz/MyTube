@@ -40,7 +40,7 @@ function myFunction() {
               var channelTitle = item.snippet.channelTitle;
               videoDes=item.snippet.description;
            		videoId=item.snippet.resourceId.videoId;
-           		output='<li><h2>'+videTitle+'</h2><small>By <span class="cTitle">' + channelTitle + '</span> on ' + videoDate + '<hr><br><iframe width="300" height="180" src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p><a href="https://www.ssyoutube.com/watch?v='+videoId+'">Download</a>&nbsp<a href="http://downsub.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D'+videoId+'">&nbspSubtitles</a>&nbsp<a href="http://peggo.co/dvr/'+videoId+'">&nbspMP3</a></li>'
+           		output='<li><h2>'+videTitle+'</h2><small>By <span class="cTitle">' + channelTitle + '</span> on ' + videoDate + '<hr><br><iframe width="300" height="180" src="http://www.youtube.com/embed/'+videoId+'"></iframe><p>'+videoDes+'</p><a href="https://www.ssyoutube.com/watch?v='+videoId+'">Download</a>&nbsp<a href="http://downsub.com/?url=http%3A%2F%2Fwww%2Eyoutube%2Ecom%2Fwatch%3Fv%3D'+videoId+'">&nbspSubtitles</a>&nbsp<a href="http://peggo.co/dvr/'+videoId+'">&nbspMP3</a>&nbsp<a href="https://gifs.com/watch?v='+videoId+'">&nbspWanna Make Gif?</a></li>'
            		//Append to Results
            		$('#results').append(output); 
            	})
