@@ -8,6 +8,8 @@ Along With This I Have Made Another Website For Searching Video Which Is Indeed 
 I Havent Developed The Front End Much.It Is A simple Website Made From Scratch.(No Templates Used :))
 
 I Have Added A Download Link For The Video Too.
+Another Feature Is That You Can Download Subtitles Of Almost All Videos in youtube.
+There is a feature to download the video As MP3 File too.
 
 
 
